@@ -332,3 +332,35 @@ h3{
     display: block;
     margin-bottom: 6px;
 }
+
+.calendar-container3 {
+    width: 55%;
+    height: 600px;
+    margin: auto;
+    overflow: hidden;
+    
+    border-radius: 10px;
+    position: relative;
+    top: -365px;
+    left: 250px;
+    max-width: 1200px;
+    display: flex; 
+    align-items: center; 
+}
+.day {
+    
+    border-right: 3px solid rgba(166, 168, 179, 0.12);
+    position: relative;
+    height: 1200px;
+    text-align: right;
+    padding: 20px 20px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    box-sizing: border-box;
+    color: #767b80;
+    top: -265px;
+    pointer-events: none;
+    
+    }
+
+
